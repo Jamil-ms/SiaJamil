@@ -96,6 +96,23 @@ main section h2 {
     margin-bottom: 10px;
 }
 
+/* Home section styles */
+.home-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.cv-content {
+    max-width: 600px;
+}
+
 /* Footer styles */
 footer {
     text-align: center;

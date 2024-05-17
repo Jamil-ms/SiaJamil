@@ -3,32 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Simple Website</title>
+    <title>Resume - Simple Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="hamburger" onclick="toggleSidebar()">&#9776;</div>
-        <h1>My Simple Website</h1>
+        <h1>My Resume</h1>
     </header>
     <nav id="sidebar">
-        <div class="close-btn" onclick="closeSidebar()">&#129136;</div>
+        <div class="close-btn" onclick="closeSidebar()">&#10005;</div>
         <ul>
+            <li><a href="index.html" onclick="closeSidebar()">Home</a></li>
             <li><a href="about.html" onclick="closeSidebar()">About</a></li>
-            <li><a href="resume.html" onclick="closeSidebar()">Resume</a></li>
             <li><a href="projects.html" onclick="closeSidebar()">Projects</a></li>
             <li><a href="contact.html" onclick="closeSidebar()">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <section id="home">
-            <h2>Welcome to My Website</h2>
-            <div class="home-content">
-                <img src="path/to/your/photo.jpg" alt="My Photo" class="profile-photo">
-                <div class="cv-content">
-                    <p>Welcome to my website. This is the home page. Navigate through the sidebar to learn more about me, view my resume, check out my projects, or get in touch.</p>
-                </div>
-            </div>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>This section contains my resume. You can include your detailed resume content here.</p>
         </section>
     </main>
     <footer>
